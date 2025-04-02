@@ -14,7 +14,8 @@ function App() {
     setAdd(oldList)
   }
   function HandleCross(index){
-    console.log(index)
+    add.slice(index,1)
+    console.log(add)
   }
   return <div className="body">
   <div className="main">
@@ -28,7 +29,7 @@ function App() {
         </div>
          <div className="Buttons"> 
          <button className="complete">Complete</button>
-        <button className="cross" onClick={HandleCross}>x</button>
+        <button className="cross" onClick={HandleCross(index)}>x</button>
         </div>
         </div> 
       }
