@@ -1,113 +1,113 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.body{
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(241, 201, 126);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main{
-  background-color: rgb(245, 230, 202);
-  width: 25rem;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  min-height: 12rem;
-}
-.main p{
-  margin-top: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 2em;
-  font-weight:bold;
-
-}
-.task{
-  height: 2.5rem;
-  width: 15rem;
-  border: solid 1px black;
-  border-radius: 5%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem 0.4rem;
-  overflow: hidden; 
-  margin-bottom: 0.5rem;
-}
-
-.words {
-  max-width:3rem;
-
-}
-
-.display-task{
-  max-width: 100px;
-  flex-wrap: wrap;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1em;
-  font-weight:100;
-}
-
-.Buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-.complete{
-  width: 3.6rem;
-  height: 1.5rem;
-  background-color: rgb(8, 191, 191);
-  border-radius: 5%;
-  border: 0px solid;
-  color: white; 
-}
-.complete:hover{
-  background-color: rgb(59, 225, 225);
-}
-.cross{
-  width: 1rem;
-  height: 1.4rem;
-  background-color: red;
-  color: white;
-  font-size: 1em;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  border: 0px;
-}
-.cross:hover{
-  background-color: red;
-  color: black;
-}
-.search{
-  margin-left: 2.5rem;
-}
-.add{
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  position: relative;
-  left: -2.9rem;
-  top: 0.2rem;
-  background-color: rgb(79, 162, 239);
-  border: 0px solid;
-  font-size: 1.5em;
-  color: white;
-}
-.add:hover{
-  background-color: rgb(50, 155, 253);
-}
-.addIn{
-  border-radius: 50px;
-  border: 0px solid;
-  margin-bottom: 2rem;
-  width: 14rem;
-  height: 3rem;
-  font-size: 1em;
-  padding: 1rem;
-}
+  .body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(241, 201, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    background-color: rgb(245, 230, 202);
+    width: 25rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 12rem;
+  }
+  .main p{
+    margin-top: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight:bold;
+  
+  }
+  .task{
+    height: 2.5rem;
+    width: 15rem;
+    border: solid 1px black;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.4rem;
+    overflow: hidden; 
+    margin-bottom: 0.5rem;
+  }
+  
+  .words {
+    max-width:3rem;
+  
+  }
+  
+  .display-task{
+    max-width: 100px;
+    flex-wrap: wrap;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    font-weight:100;
+  }
+  
+  .Buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .complete{
+    width: 3.6rem;
+    height: 1.5rem;
+    background-color: rgb(8, 191, 191);
+    border-radius: 5%;
+    border: 0px solid;
+    color: white; 
+  }
+  .complete:hover{
+    background-color: rgb(59, 225, 225);
+  }
+  .cross{
+    width: 1rem;
+    height: 1.4rem;
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+  }
+  .cross:hover{
+    background-color: red;
+    color: black;
+  }
+  .search{
+    margin-left: 2.5rem;
+  }
+  .add{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    left: -2.9rem;
+    top: 0.2rem;
+    background-color: rgb(79, 162, 239);
+    border: 0px solid;
+    font-size: 1.5em;
+    color: white;
+  }
+  .add:hover{
+    background-color: rgb(50, 155, 253);
+  }
+  .addIn{
+    border-radius: 50px;
+    border: 0px solid;
+    margin-bottom: 2rem;
+    width: 14rem;
+    height: 3rem;
+    font-size: 1em;
+    padding: 1rem;
+  }
